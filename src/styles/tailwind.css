@@ -1,0 +1,83 @@
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@import 'tw-animate-css';
+
+@utility emerald-bright {
+  color: #10b981;
+}
+
+@utility teal {
+  color: #14b8a6;
+}
+
+@utility amber {
+  color: #fbbf24;
+}
+
+@utility text-emerald-bright {
+  color: #10b981;
+}
+
+@utility text-teal {
+  color: #14b8a6;
+}
+
+@utility text-amber {
+  color: #fbbf24;
+}
+
+@utility bg-emerald {
+  background-color: #10b981;
+}
+
+@utility bg-teal {
+  background-color: #14b8a6;
+}
+
+@utility bg-amber {
+  background-color: #fbbf24;
+}
+
+@utility border-emerald {
+  border-color: #10b981;
+}
+
+@utility border-teal {
+  border-color: #14b8a6;
+}
+
+@utility border-amber {
+  border-color: #fbbf24;
+}
+
+@utility from-emerald {
+  --tw-gradient-from: #10b981;
+}
+
+@utility to-teal {
+  --tw-gradient-to: #14b8a6;
+}
+
+@utility from-amber {
+  --tw-gradient-from: #fbbf24;
+}
+
+@utility to-emerald {
+  --tw-gradient-to: #10b981;
+}
+
+@utility to-gold {
+  --tw-gradient-to: #f59e0b;
+}
+
+@utility from-gold {
+  --tw-gradient-from: #f59e0b;
+}
+
+@utility glass-panel {
+  background: rgba(26, 31, 40, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
